@@ -1,83 +1,78 @@
-🎮 Simon Says Game
+# 🎮 Simon Says Game
 
-A classic Simon Says memory game built using HTML, CSS, and JavaScript.
-The game challenges players to remember and repeat an increasingly long sequence of colors.
+A classic **Simon Says** memory game built using **HTML, CSS, and JavaScript**.  
+The game tests the player’s memory by generating a sequence of colors that must be repeated correctly.
 
-✨ Features
+---
 
-Start the game by pressing any key
+## ✨ Features
 
-Four colored buttons: Red, Blue, Green, Yellow
+- Start the game by pressing **any key**
+- Four colored buttons: **Red, Blue, Green, Yellow**
+- Random color sequence generation
+- Level-based progression
+- Visual flash effects for system and user input
+- Game-over detection with score display
+- Restart option after game over
 
-Random color sequence generation
+---
 
-Level progression system
+## 🛠️ Technologies Used
 
-Visual flash effects for game and user input
+- **HTML** – Game structure  
+- **CSS** – Styling and animations  
+- **JavaScript** – Game logic and interactivity  
 
-Game-over alert with final score
+---
 
-Restart option after losing
+## 🎯 How to Play
 
-🛠️ Technologies Used
+1. Press **any key** to start the game.
+2. Observe the color sequence shown.
+3. Click the buttons in the **same order**.
+4. Each new level adds one more color.
+5. A wrong input ends the game and shows your score.
+6. Press any key to restart.
 
-HTML – Structure
+---
 
-CSS – Styling and animations
+## 📁 Project Structure
 
-JavaScript – Game logic
-
-🎯 How to Play
-
-Press any key to start the game.
-
-Watch the color sequence carefully.
-
-Click the buttons in the same order.
-
-Each level adds one more color to the sequence.
-
-A wrong click ends the game and shows your score.
-
-Press any key to restart.
-
-📁 Project Structure
 Simon-Says/
 ├── index.html
 ├── simon.css
 └── simon.js
 
-⚙️ How to Run
+---
 
-Download or clone the project
+## ⚙️ How to Run the Project
 
-Open index.html in a browser
+1. Clone or download the repository
+2. Open `index.html` in a web browser
+3. Enjoy the game 🎉
 
-Start playing 🎉
+---
 
-🧠 Game Logic Summary
+## 🧠 Game Logic Overview
 
-gameseq[] stores the system-generated sequence
+- `gameseq[]` stores the randomly generated color sequence
+- `userseq[]` stores the user's input
+- User input is checked step-by-step
+- Correct sequence → level increases
+- Wrong input → game resets
 
-userseq[] stores the user’s clicks
+---
 
-Inputs are checked step-by-step
+## 🚀 Future Enhancements
 
-Correct sequence → next level
+- Add sound effects
+- Track highest score
+- Improve mobile responsiveness
+- Add difficulty levels
 
-Wrong input → game reset
+---
 
-🚀 Future Enhancements
+## 👨‍💻 Author
 
-Sound effects for buttons
-
-High score tracking
-
-Mobile responsiveness
-
-Difficulty modes
-
-👨‍💻 Author
-
-Gaurav Kakkar
+**Gaurav Kakkar**  
 B.Tech CSE Student | Web Development Enthusiast
